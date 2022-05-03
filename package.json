@@ -1,0 +1,22 @@
+{
+  "name": "javascript-expert",
+  "version": "1.0.0",
+  "description": "Repository to study about https://javascriptexpert.club.hotmart.com/ course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlohcs/javascript-expert.git"
+  },
+  "author": "Carlos Henrique Carvalho de Santana <carlohcs@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlohcs/javascript-expert/issues"
+  },
+  "homepage": "https://github.com/carlohcs/javascript-expert#readme",
+  "devDependencies": {
+    "sinon": "^13.0.2"
+  }
+}
