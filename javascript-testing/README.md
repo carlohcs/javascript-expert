@@ -1,0 +1,1 @@
+How to do automated tests in JavaScript (WITHOUT FRAMEWORKS): https://www.youtube.com/watch?v=8hxhZkBzWhk
