@@ -19,6 +19,12 @@ const { rejects, deepStrictEqual } = require("assert")
     await rejects(result, rejection)
   }
   {
+    const filePath = "../fixtures/invalid-header.csv"
+    const rejection = new Error(error.FILE_FIELDS_ERROR_MESSAGE)
+    const result = File.csvToJson(filePath)
+    await rejects(result, rejection)
+  }
+  {
     const filePath = "../fixtures/threeItems-valid.csv"
     const result = await File.csvToJson(filePath)
     const expected = [

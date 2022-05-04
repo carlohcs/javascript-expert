@@ -4,7 +4,8 @@
   "description": "Repository to study about https://javascriptexpert.club.hotmart.com/ course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:e2e": "npx mocha -w  --parallel javascript-testing/**/*.test.js",
+    "test:e2e:coverage": "npx nyc npx mocha --parallel javascript-testing/**/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/carlohcs/javascript-expert#readme",
   "devDependencies": {
-    "sinon": "^13.0.2"
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0",
+    "sinon": "^13.0.2",
+    "supertest": "^6.2.3"
   }
 }

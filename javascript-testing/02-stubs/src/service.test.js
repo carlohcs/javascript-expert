@@ -9,12 +9,22 @@ const fixtures = {
 }
 
 ;(async () => {
-  // {
-  // Go to internet!
-  //   const service = new Service()
-  //   const withoutStub = await service.makeRequest(BASE_URL_2)
-  //   console.log(JSON.stringify(withoutStub))
-  // }
+  {
+    // Go to internet!
+    const service = new Service()
+    service.makeRequest(BASE_URL_1).then((data) => {
+      deepStrictEqual(data.name, "Tatooine")
+    })
+  }
+
+  {
+    try {
+      const service = new Service()
+      await service.makeRequest("http://foo.bar")
+    } catch (error) {
+      deepStrictEqual(error.code, "ERR_INVALID_PROTOCOL")
+    }
+  }
 
   const service = new Service()
   const stub = sinon.stub(service, service.makeRequest.name)
