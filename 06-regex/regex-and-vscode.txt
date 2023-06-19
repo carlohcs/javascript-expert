@@ -1,0 +1,36 @@
+regex101.com
+
+// Numbers
+^\d{3}.\d{3}.\d{3}-\d{2}$
+
+// Characters
+[.-]
+
+123.123.123-14
+321.321.321-32
+200.300.500.32
+
+// Grouped by groups
+^(\w+),\s(\w+)$
+Carlos, Santana
+Jimi, Hendrix
+Carlota, Sounds
+
+To create a JSON:
+
+We can do:
+command + f: 
+^(\w+),\s(\w+)$
+
+replace:
+
+{firstName: "$1", lastName: "$2"}
+
+$0 -> is the full match
+
+
+Markdown to HTML
+
+\[(.*?)\]\(([http|https].*?)\) -> <a href="$2">$1</a>
+
+[Carlos Henrique](https://carlohcs.me) is a web developer and a [music lover](https://carlota-sounds.art).
