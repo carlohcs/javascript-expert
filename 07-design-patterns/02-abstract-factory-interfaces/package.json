@@ -1,0 +1,19 @@
+{
+  "name": "02-abstract-factory-interfaces",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:web": "npx http-server .",
+    "start:console": "node ui/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "chalk-table": "^1.0.2",
+    "http-server": "^14.1.1"
+  }
+}
