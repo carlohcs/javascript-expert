@@ -1,0 +1,21 @@
+{
+  "name": "04-strategy",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "npx nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "knex": "^2.5.1",
+    "mongodb": "^5.7.0",
+    "pg": "^8.11.2"
+  }
+}
