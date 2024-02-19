@@ -1,0 +1,13 @@
+{
+  "name": "@carlohcs/10-node-js-streams",
+  "version": "1.0.0",
+  "description": "JavaScript it was not created to handle heavy files. If it's used 2 GB inside of application, it will break with memory leak.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
