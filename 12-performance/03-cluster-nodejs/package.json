@@ -1,0 +1,19 @@
+{
+  "name": "03-cluster-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-with-workers": "WITH_WORKERS=true node src/index.js",
+    "start-without-workers": "WITH_WORKERS=false node src/index.js",
+    "start-break-workers": "WITH_WORKERS=true BREAK_WORKERS=true node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autocannon": "^7.5.0"
+  }
+}
