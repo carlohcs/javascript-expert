@@ -18,4 +18,7 @@
 - https://node.dev/post/understanding-worker-threads-in-node-js
 - https://nodejs.org/en/docs/guides/dont-block-the-event-loop
 - https://rclayton.silvrback.com/speaking-intelligently-about-java-vs-node-performance#:~:text=Java%20will%20almost%20always%20be,development%20than%20the%20V8%20runtime.
-
+- https://riptutorial.com/node-js/example/21833/processing-long-running-queries-with-node
+- https://www.reddit.com/r/node/comments/b5fhur/what_are_the_use_cases_for_child_process/
+- https://www.kaggle.com/maca11/all-pokemon-dataset
+- https://github.com/nodejs/node/pull/41221
