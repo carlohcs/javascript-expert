@@ -2,6 +2,9 @@
 
 Repository to study about https://javascriptexpert.club.hotmart.com/ course
 
+## Certificate
+
+https://javascriptexpert.club.hotmart.com/public/user-certificate/57ac66c5-f1d8-400b-84c7-c6299be0813c/_
 
 ## Useful links
 
